@@ -63,4 +63,10 @@ const wardrobe = {
 }
 
 
-console.log("These are the values of wardrobe:", wardrobe.height, wardrobe.manufacturer, wardrobe.contents, wardrobe.depth, wardrobe.width)
+console.log("Wardrobe Height", wardrobe.height)
+console.log("Wardrobe Manufacturer", wardrobe.manufacturer)
+console.log("Wardrobe Contents", wardrobe.contents)
+console.log(wardrobe.contents[0], wardrobe.contents[1], wardrobe.contents[2], wardrobe.contents[3], wardrobe.contents[4])
+console.log("Wardrobe Depth", wardrobe.depth)
+console.log("Wardrobe Width", wardrobe.width)
+
