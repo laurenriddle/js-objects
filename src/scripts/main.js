@@ -105,16 +105,16 @@ console.log("North South Length", empireStateBuilding.northSouthLength)
 
 // Lightning Exercises 2: Use square bracket notation to output the remaining 5 properties to the console. Create 5 variables first with the keys as their values. Use those variables to look up the values.
 
-const architectVar = "architect"
-const ownerVar = "owner"
-const costVar = "cost"
-const constructionDateVar = "constructionDate"
-const addressVar = "address"
+const architectKey = "architect"
+const ownerKey = "owner"
+const costKey = "cost"
+const constructionDateKey = "constructionDate"
+const addressKey = "address"
 
 
 
-console.log("Architect", empireStateBuilding[architectVar])
-console.log("Owner", empireStateBuilding[ownerVar])
-console.log("Cost", empireStateBuilding[costVar])
-console.log("Construction Date", empireStateBuilding[constructionDateVar])
-console.log("Address", empireStateBuilding[addressVar])
+console.log("Architect", empireStateBuilding[architectKey])
+console.log("Owner", empireStateBuilding[ownerKey])
+console.log("Cost", empireStateBuilding[costKey])
+console.log("Construction Date", empireStateBuilding[constructionDateKey])
+console.log("Address", empireStateBuilding[addressKey])
