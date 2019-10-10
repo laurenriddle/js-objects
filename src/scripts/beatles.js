@@ -28,11 +28,12 @@ const beatles = {
     ]
 }
 
-// Output the following value to the console. Paul McCartney was in the Beatles from 1960 to 1970. He was born in 1942.
+// Output the following value to the console. Paul McCartney was in the Beatles from 1960 to 1970. He was born in 1942. He contributed heavily to the Magical Mystery Tour Album.
 
 const name = beatles.members[1].name
 const startYear = beatles.history.formed
 const endYear = beatles.history.disbanded
 const birthYear = beatles.members[1].birth
+const album = beatles.albums[3]
 
-console.log(`${name} was in the Beatles from ${startYear} to ${endYear}. He was born in ${birthYear}.`)
+console.log(`${name} was in the Beatles from ${startYear} to ${endYear}. He was born in ${birthYear}. He contributed heavily to the ${album} Album.`)
